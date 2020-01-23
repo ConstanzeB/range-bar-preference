@@ -23,8 +23,8 @@ import static com.nfx.android.rangebarpreference.RangeBarHelper.formatFloatToStr
 class PreferenceControllerDelegate implements RangeBar.OnRangeBarChangeListener, RangeBar
         .OnTouchListener {
 
-    private static final float DEFAULT_CURRENT_LOW_VALUE = 20;
-    private static final float DEFAULT_CURRENT_HIGH_VALUE = 80;
+    private static final float DEFAULT_CURRENT_LOW_VALUE = -50;
+    private static final float DEFAULT_CURRENT_HIGH_VALUE = 300;
     private static final float DEFAULT_TICK_START = 0;
     private static final float DEFAULT_TICK_END = 100;
     private static final float DEFAULT_TICK_INTERVAL = 1;
